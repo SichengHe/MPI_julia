@@ -87,5 +87,5 @@ if rank == 0
     using PlotlyJS
     plot_ref = plot(contour(x=x1, y=x2, z=yy))
     # Makie.save("plot.png", scene1)
-    savefig(plot_ref, "plot.pdf")
+    savefig(plot_ref, "contour.png")
 end
